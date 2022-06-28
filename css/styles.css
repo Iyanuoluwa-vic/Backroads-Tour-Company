@@ -435,9 +435,16 @@ Featured Tours
     align-self: center;
   }
 }
+/* 
+.Featured {
+  border: 1px solid red;
+} */
 
-.all-tours {
-  margin: 0 auto;
+.tour-btn {
+  text-align: center;
+}
+
+.tour-btn a {
 }
 
 /*

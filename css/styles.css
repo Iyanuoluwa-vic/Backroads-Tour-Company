@@ -358,6 +358,10 @@ Featured Tours
   margin-bottom: 3rem;
 }
 
+.article .text {
+  max-width: 90%;
+}
+
 .image-timeBelow {
   position: relative;
   /* border: 3px solid blue; */
@@ -387,15 +391,11 @@ Featured Tours
 }
 
 .article p {
-  max-width: 45rem;
-}
-
-.article p {
   margin-top: 1rem;
 }
 
 .text-center {
-  width: 90vh;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -410,6 +410,30 @@ Featured Tours
 .article:hover {
   box-shadow: var(--dark-shadow);
   transform: scale(1.02);
+}
+
+@media screen and (min-width: 760px) {
+  .section-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .section-flex .article {
+    flex: 0 0 calc(50% - 2rem);
+    align-self: center;
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  .section-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .section-flex .article {
+    flex: 0 0 calc(33.3% - 2rem);
+    align-self: center;
+  }
 }
 
 /*

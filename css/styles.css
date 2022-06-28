@@ -349,6 +349,69 @@ Services
 Featured Tours
 ===============
 */
+.Featured {
+  background-color: var(--clr-white);
+}
+
+.article {
+  background-color: var(--clr-grey-10);
+  margin-bottom: 3rem;
+}
+
+.image-timeBelow {
+  position: relative;
+  /* border: 3px solid blue; */
+  box-sizing: border-box;
+}
+
+.image-timeBelow span {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  z-index: 2;
+
+  background-color: var(--clr-primary-8);
+  color: black;
+  padding: 0.5rem 1rem;
+}
+
+.title-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.article h4 {
+  margin-bottom: 0rem;
+  margin-top: 1rem;
+}
+
+.article p {
+  max-width: 45rem;
+}
+
+.article p {
+  margin-top: 1rem;
+}
+
+.text-center {
+  width: 90vh;
+  margin: 0 auto;
+}
+
+.text-footer {
+  display: flex;
+  justify-content: space-between;
+  color: var(--clr-primary-7);
+  text-transform: capitalize;
+  margin: 2rem 0;
+}
+
+.article:hover {
+  box-shadow: var(--dark-shadow);
+  transform: scale(1.02);
+}
+
 /*
 =============== 
 Deals

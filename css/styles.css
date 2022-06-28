@@ -242,6 +242,9 @@ About
 /* title add to globals */
 /* section center add to globals */
 
+.section-title h2 {
+  text-transform: uppercase;
+}
 .about-photo {
   margin-bottom: 3rem;
 }
@@ -511,6 +514,53 @@ contacts
 Gallery
 ===============
 */
+
+.gallarys {
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .section-flex-gallarys {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  article {
+    flex: 0 0 calc(50%);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .section-flex-gallarys {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  article {
+    flex: 0 0 calc(25%);
+  }
+}
+
+.gallarys-container {
+  position: relative;
+}
+
+.gallarys-icon {
+  position: absolute;
+  font-size: x-large;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--clr-white);
+  z-index: 3;
+  opacity: 0;
+
+  transition: var(--transition);
+}
+
+.gallarys-container:hover .gallarys-icon {
+  opacity: 1;
+}
 
 /*
 =============== 

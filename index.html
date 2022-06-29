@@ -16,8 +16,64 @@
   </head>
   <body>
     <!-- header -->
-    <header>
+    <header id="home">
       <!-- navbar -->
+
+      <nav class="navbar">
+        <!-- nav center -->
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <img src="./images/logo.svg" class="nav-logo" alt="" />
+            <button type="button" class="nav-toggle" id="nav-toogle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- end of nav header -->
+
+          <!-- nav links to section -->
+          <ul class="nav-links" id="nav-links">
+            <li><a href="#home" class="nav-link scroll-link">Home</a></li>
+            <li><a href="#about" class="nav-link scroll-link">about</a></li>
+            <li>
+              <a href="#services" class="nav-link scroll-link">services</a>
+            </li>
+            <li>
+              <a href="#featured" class="nav-link scroll-link">featured</a>
+            </li>
+            <li><a href="#gallery" class="nav-link scroll-link">gallery</a></li>
+          </ul>
+          <!--  end of nav links to section -->
+
+          <!-- nav social media icon -->
+          <ul class="nav-icons">
+            <li>
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="nav-icon"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/" target="_blank" class="nav-icon"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="nav-icon"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+            </li>
+          </ul>
+          <!-- end of nav social media icon -->
+        </div>
+        <!-- end of nav center -->
+      </nav>
+      <!-- end of navbar -->
 
       <!-- hero -->
       <div class="hero">
@@ -323,7 +379,7 @@
     </section>
 
     <!-- contact section -->
-    <section class="contact">
+    <section class="contact" id="#contact">
       <!-- div to center and flex -->
       <div class="section-center section-flex-contact">
         <!-- contact heading -->
@@ -351,7 +407,7 @@
     <!-- end of contact section -->
 
     <!-- Galllery section -->
-    <section class="gallarys">
+    <section class="gallarys" id="#gallary">
       <!-- div for flex -->
       <div class="section-flex-gallarys">
         <!-- gallray article 1 -->
@@ -429,5 +485,43 @@
       <!-- end of div for flex -->
     </section>
     <!-- end of gallarys section -->
+
+    <!-- footer section-->
+    <footer>
+      <!-- links to section -->
+      <ul class="links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#services">services</a></li>
+        <li><a href="#featured">featured</a></li>
+        <li><a href="#gallery">gallery</a></li>
+      </ul>
+      <!--  end of links to section -->
+
+      <!-- social media icon -->
+      <ul class="icon">
+        <li>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+        </li>
+      </ul>
+      <!-- end of social media icon -->
+
+      <!-- copyright -->
+      <p>
+        copyright <i class="fa fa-copyright" aria-hidden="true"></i> backroads
+        travel tour company 2022. all rights reserved
+      </p>
+      <!--  end of copyright -->
+    </footer>
+    <!-- end of footer section-->
+
+    <!-- js -->
+    <script src="./js/app.js"></script>
   </body>
 </html>
